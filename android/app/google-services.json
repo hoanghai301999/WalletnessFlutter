@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "373851449230",
+    "project_id": "flutter-auth-32266",
+    "storage_bucket": "flutter-auth-32266.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373851449230:android:9b43976331336d88dbe6df",
+        "android_client_info": {
+          "package_name": "com.kashapp.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373851449230-1sihmsi33hgfruecu2r64p26jki397rp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kashapp.app",
+            "certificate_hash": "799e9cc0a6a75190ea6c360da2c01c035f2abce6"
+          }
+        },
+        {
+          "client_id": "373851449230-eok8luaubchpscs0ui9qa2ksmhrs3h8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVYf9mird0e4NHkZwQMJFj_VrLfNy-XSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373851449230-eok8luaubchpscs0ui9qa2ksmhrs3h8o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "373851449230-09pnlh8fn6mfs9dqf7nr9i76gsk63vok.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kash.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
