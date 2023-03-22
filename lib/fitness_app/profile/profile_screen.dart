@@ -1,7 +1,6 @@
 import 'package:best_flutter_ui_templates/fitness_app/ui_view/area_list_view.dart';
 import 'package:best_flutter_ui_templates/fitness_app/ui_view/running_view.dart';
 import 'package:best_flutter_ui_templates/fitness_app/ui_view/title_view.dart';
-import 'package:best_flutter_ui_templates/fitness_app/ui_view/avatar_view.dart';
 import 'package:best_flutter_ui_templates/fitness_app/ui_view/workout_view.dart';
 import 'package:flutter/material.dart';
 
@@ -70,17 +69,7 @@ class _ProfileScreenState extends State<ProfileScreen>
         animationController: widget.animationController!,
       ),
     );
-    listViews.add(
-      AvatarView(
-        avatarTxt: 'Profile',
-        subTxt: 'Details',
-        animation: Tween<double>(begin: 0.0, end: 1.0).animate(CurvedAnimation(
-            parent: widget.animationController!,
-            curve:
-                Interval((1 / count) * 0, 1.0, curve: Curves.fastOutSlowIn))),
-        animationController: widget.animationController!,
-      ),
-    );
+
     listViews.add(
       WorkoutView(
         animation: Tween<double>(begin: 0.0, end: 1.0).animate(CurvedAnimation(
